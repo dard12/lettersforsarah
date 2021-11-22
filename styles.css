@@ -91,11 +91,11 @@ img {
   width: 750px;
   padding-top: 30px;
   padding-bottom: 50px;
-  border-bottom: 3px solid hsl(217, 47%, 91%);
+  border-bottom: 3px solid hsl(214, 30%, 95%);
 }
 
 .menu > * {
-  color: hsl(217, 21%, 12%);
+  color: hsl(218, 15%, 52%);
   font-size: 18px;
   text-decoration: none;
   cursor: pointer;
@@ -134,5 +134,15 @@ img {
     width: 100%;
     margin-left: 0;
     margin-right: 0;
+  }
+
+  .menu {
+    flex-direction: column;
+    width: 100%;
+    padding: 18px 24px;
+  }
+
+  .menu > * {
+    margin-bottom: 8px;
   }
 }
