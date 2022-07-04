@@ -102,7 +102,8 @@ img {
   margin-right: 32px;
 }
 
-.menu > *:hover {
+.menu > *:hover,
+.menu > *.active {
   color: hsl(214, 100%, 59%);
   transition: 0.3s;
 }
