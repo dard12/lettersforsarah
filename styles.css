@@ -86,12 +86,11 @@ img {
 }
 
 .menu {
-  margin: 0 auto;
-  display: flex;
-  width: 750px;
-  padding-top: 30px;
-  padding-bottom: 50px;
-  border-bottom: 3px solid hsl(214, 30%, 95%);
+  display: grid;
+  row-gap: 8px;
+  padding: 24px;
+  background-color: hsl(214, 30%, 97%);
+  position: absolute;
 }
 
 .menu > * {
@@ -99,7 +98,6 @@ img {
   font-size: 18px;
   text-decoration: none;
   cursor: pointer;
-  margin-right: 32px;
 }
 
 .menu > *:hover,
@@ -129,6 +127,7 @@ img {
   .page {
     width: 100%;
     padding: 24px;
+    margin: 32px auto;
   }
 
   .divide {
@@ -138,12 +137,7 @@ img {
   }
 
   .menu {
-    flex-direction: column;
     width: 100%;
-    padding: 18px 24px;
-  }
-
-  .menu > * {
-    margin-bottom: 8px;
+    position: relative;
   }
 }
