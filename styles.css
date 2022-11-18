@@ -123,6 +123,11 @@ img {
   vertical-align: bottom;
 }
 
+.blue {
+  color: hsl(214, 100%, 59%);
+  font-size: 0.8em;
+}
+
 @media (max-width: 576px) {
   html,
   body {
