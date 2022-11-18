@@ -87,10 +87,12 @@ img {
 
 .menu {
   display: grid;
-  row-gap: 8px;
+  row-gap: 16px;
   padding: 24px;
-  background-color: hsl(214, 30%, 97%);
+  padding-right: 12px;
+  border-right: 3px solid hsl(214, 30%, 95%);
   position: absolute;
+  max-width: 270px;
 }
 
 .menu > * {
@@ -104,6 +106,21 @@ img {
 .menu > *.active {
   color: hsl(214, 100%, 59%);
   transition: 0.3s;
+}
+
+.superscript {
+  font-size: 0.6em;
+  vertical-align: top;
+}
+
+.superscript {
+  font-size: 0.6em;
+  vertical-align: top;
+}
+
+.subscript {
+  font-size: 0.8em;
+  vertical-align: bottom;
 }
 
 @media (max-width: 576px) {
@@ -137,7 +154,7 @@ img {
   }
 
   .menu {
-    width: 100%;
+    max-width: 100%;
     position: relative;
   }
 }
