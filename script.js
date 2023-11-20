@@ -15,7 +15,7 @@ const menuItems = [
     label: "It's my birthday again!",
   },
   {
-    href: "./birthday-3.html",
+    href: "./reasons-to-love.html",
     label: "Finding reasons to love you",
   },
 ];
