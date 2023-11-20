@@ -16,7 +16,7 @@ const menuItems = [
   },
   {
     href: "./birthday-3.html",
-    label: "The big 30th!",
+    label: "Finding reasons to love you",
   },
 ];
 
