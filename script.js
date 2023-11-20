@@ -14,6 +14,10 @@ const menuItems = [
     href: "./birthday-2.html",
     label: "It's my birthday again!",
   },
+  {
+    href: "./birthday-3.html",
+    label: "The big 30th!",
+  },
 ];
 
 function clickAffirmation() {
