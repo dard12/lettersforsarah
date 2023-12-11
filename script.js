@@ -16,7 +16,7 @@ const menuItems = [
   },
   {
     href: "./reasons-to-love.html",
-    label: "Finding reasons to love you",
+    label: "Reasons to love you",
   },
 ];
 
