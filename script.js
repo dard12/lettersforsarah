@@ -6,6 +6,8 @@ const affirmations = [
   `The time I went ziplining, I was so scared but I whispered "I love my girlfriend" and jumped. I just wanted to know that if I got into a freak accident that somebody there could still relay the message.`,
 ];
 
+const test = "test";
+
 const menuItems = [
   { href: "./index.html", label: "Show me the first letter." },
   { href: "./birthday-1.html", label: "It's my birthday today!" },
