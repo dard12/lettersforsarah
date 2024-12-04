@@ -6,8 +6,6 @@ const affirmations = [
   `The time I went ziplining, I was so scared but I whispered "I love my girlfriend" and jumped. I just wanted to know that if I got into a freak accident that somebody there could still relay the message.`,
 ];
 
-const test = "test";
-
 const menuItems = [
   { href: "./index.html", label: "Show me the first letter." },
   { href: "./birthday-1.html", label: "It's my birthday today!" },
@@ -18,7 +16,23 @@ const menuItems = [
   },
   {
     href: "./reasons-to-love.html",
-    label: "Reasons to love you",
+    label: "Reasons to love you.",
+  },
+  {
+    href: "./proud-of-you.html",
+    label: "I'm proud of you.",
+  },
+  {
+    href: "./references-together.html",
+    label: "Our references together.",
+  },
+  {
+    href: "./of-course.html",
+    label: "Of course I know.",
+  },
+  {
+    href: "./parts-of-you.html",
+    label: "Parts of you.",
   },
 ];
 

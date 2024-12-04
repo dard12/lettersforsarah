@@ -87,6 +87,11 @@ img {
 
 .menu {
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+  max-width: 1200px;
+  margin: 24px auto;
 }
 
 .menu > * {
@@ -94,7 +99,6 @@ img {
   font-size: 18px;
   text-decoration: none;
   cursor: pointer;
-  margin-right: 32px;
 }
 
 .menu > *:hover,
