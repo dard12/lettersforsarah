@@ -28,7 +28,7 @@ const menuItems = [
   },
   {
     href: "./of-course.html",
-    label: "Of course I know.",
+    label: "How much you love me.",
   },
   {
     href: "./parts-of-you.html",
