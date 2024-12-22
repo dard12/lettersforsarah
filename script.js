@@ -36,11 +36,13 @@ const menuItems = [
   },
 ];
 
+let count = 0;
+
 function clickAffirmation() {
   const numberOfAffirmations = affirmations.length;
-  const random = Math.floor(Math.random() * numberOfAffirmations);
+  alert(affirmations[count % numberOfAffirmations]);
 
-  alert(affirmations[random]);
+  count++;
 }
 
 function injectMenu() {
