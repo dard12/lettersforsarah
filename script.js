@@ -27,7 +27,7 @@ const menuItems = [
     label: "Our references together.",
   },
   {
-    href: "./of-course.html",
+    href: "./you-love-me.html",
     label: "How much you love me.",
   },
   {
