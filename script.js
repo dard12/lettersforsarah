@@ -1,4 +1,5 @@
 const affirmations = [
+  `Hi bub. You BUTT, if you're seeing this you didn't listen to my advice and checked the website. I haven't processed everything yet but I figured I'd write this just in case you checked. I've spent all day today after our call distracting myself. I just didn't feel like I'd be able to handle the feelings if I let them well up. But then, just now, as I finished the game I was using to distract myself, I suddenly said out loud, "Is she dead?! No?! Then there's still hope". I wrote in my journal, "the fight's not over until she closes the door. And I know I'm strong enough to keep fighting". You are my buddy, and I love you dearly. We both know you shouldn't wait for me, but if it's healthy for you to leave the door just slightly open, I'll fight with all the hope I have in me.`,
   `In my notes: "she put off work a little to go get me a scone because i never wake up early enough but i love scones and i love her". I love how thoughtful you are as a person.`,
   `In my notes: "the way that sarah likes me laughing, or likes me making dumb blee bloo blop blop noises, makes me love her". You are the most accepting partner I've ever had.`,
   `In my notes: "you know what it is, i think she's a really brave, that's what i mean by effort, it's that she feels fully the difficulty of what she faces but she tackles it nevertheless, every time." I love you.`,
@@ -54,7 +55,7 @@ function injectMenu() {
   });
 
   menuHtml.push(
-    `<span onclick="clickAffirmation()">I want an affirmation.</span>`
+    `<span onclick="clickAffirmation()">I want an affirmation (updated 6/3).</span>`
   );
 
   menu.innerHTML = menuHtml.join("");
