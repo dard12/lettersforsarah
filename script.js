@@ -1,5 +1,7 @@
 const affirmations = [
-  `Hi bub. You BUTT, if you're seeing this you didn't listen to my advice and checked the website. I haven't processed everything yet but I figured I'd write this just in case you checked. I've spent all day today after our call distracting myself. I just didn't feel like I'd be able to handle the feelings if I let them well up. But then, just now, as I finished the game I was using to distract myself, I suddenly said out loud, "Is she dead?! No?! Then there's still hope". I wrote in my journal, "the fight's not over until she closes the door. And I know I'm strong enough to keep fighting". You are my buddy, and I love you dearly. We both know you shouldn't wait for me, but if it's healthy for you to leave the door just slightly open, I'll fight with all the hope I have in me.`,
+  `I don't know if I told you, but I told all my friends how much I love that we always experience life in lockstep. That our values align so much that we end up in the same place without even trying to. I met one of my friends recently and told him how I was SO excited to tell you about the social event I had been to that played those card games for making connections, because it seemed like exactly something you would love running, and it turns out you had already seen multiples of them and was completely unimpressed. It's ok though, I still love you.`,
+  `I already told you this, but when I thought about what I would take for sentimental value if my apartment went up in flames, all I could think of to tell my friends was that Bojack picture you made for me. I love you.`,
+  `I told you this, but I have a new way to make matcha! I got so excited, because after so many tries, I finally have a way that's easy so I can make as much matcha for you as you want, and show you that I do love you.`,
   `In my notes: "she put off work a little to go get me a scone because i never wake up early enough but i love scones and i love her". I love how thoughtful you are as a person.`,
   `In my notes: "the way that sarah likes me laughing, or likes me making dumb blee bloo blop blop noises, makes me love her". You are the most accepting partner I've ever had.`,
   `In my notes: "you know what it is, i think she's a really brave, that's what i mean by effort, it's that she feels fully the difficulty of what she faces but she tackles it nevertheless, every time." I love you.`,
@@ -35,6 +37,10 @@ const menuItems = [
     href: "./parts-of-you.html",
     label: "Parts of you.",
   },
+  {
+    href: "./my-journal.html",
+    label: "My journal for you (updated 6/16)",
+  },
 ];
 
 let count = 0;
@@ -55,7 +61,7 @@ function injectMenu() {
   });
 
   menuHtml.push(
-    `<span onclick="clickAffirmation()">I want an affirmation (updated 6/3).</span>`
+    `<span onclick="clickAffirmation()">I want an affirmation.</span>`
   );
 
   menu.innerHTML = menuHtml.join("");

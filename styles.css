@@ -17,7 +17,7 @@ body {
   margin: 0;
   padding: 0;
   color: hsl(217, 21%, 12%);
-  font-family: Helvetica;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 *,
@@ -57,9 +57,29 @@ body {
 .body {
   font-size: 22px;
   font-weight: normal;
-  font-family: Georgia;
+  font-family: Georgia, serif;
   margin-bottom: 24px;
   line-height: 1.83;
+}
+
+.bold {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: Helvetica, Arial, sans-serif;
+  margin-bottom: 24px;
+  line-height: 1.83;
+}
+
+.quote {
+  font-size: 22px;
+  font-weight: normal;
+  font-family: Georgia, serif;
+  margin-bottom: 24px;
+  line-height: 1.83;
+  border-left: 6px solid hsl(213, 29%, 87%);
+  background-color: hsl(210, 18%, 96%);
+  padding: 18px 24px;
+  border-radius: 4px;
 }
 
 .divide {
