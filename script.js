@@ -40,7 +40,7 @@ const menuItems = [
   },
   {
     href: "./my-journal.html",
-    label: "My journal for you (updated 6/22)",
+    label: "My journal for you (updated 6/24)",
   },
 ];
 
